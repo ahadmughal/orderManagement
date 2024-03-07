@@ -1,0 +1,178 @@
+@import 'admin-lte/dist/css/adminlte.min.css';
+@import 'admin-lte/plugins/fontawesome-free/css/all.min.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback');
+
+
+.hpadding0{
+    padding:0px 0px;
+}
+.hpadding5{
+    padding:0px 5px;
+}
+.hpadding10{
+    padding:0px 10px;
+}
+.vpadding10{
+    padding:10px 0px;
+}
+.hmargin5{
+    margin:0px 5px;
+}
+.hmargin10{
+    margin:0px 10px;
+}
+.vmargin10{
+    margin:10px 0px;
+}
+.vmargin10Top{
+    margin-top:10px;
+}
+.fullWidth{
+    width:100% !important;
+}
+.floatRight{
+    float:right !important;
+}
+.nav.nav-treeview li{
+    border-bottom:1px solid #ffffff;
+}
+.verticalCenter{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.editIcon{
+    border:1px solid #008ffd;
+    border-radius:3px;
+    padding:5px 7px;
+    margin:2px 3px;
+}
+.permissionIcon{
+    border:1px solid #fd8b00;
+    border-radius:3px;
+    padding:5px 7px;
+    margin:2px 3px;
+    color:#fd8b00;
+}
+.delIcon{
+    border:1px solid red;
+    border-radius:3px;
+    padding:5px 7px;
+    margin:2px 3px;
+    color:red;
+}
+.permissionBadge1{
+    background-color: #e35614;
+    padding: 2px 7px 4px 7px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px;
+    color: #ffffff;
+}
+.permissionBadge2{
+    background-color: #e3146e;
+    padding: 2px 7px 4px 7px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px;
+    color: #ffffff;
+}
+.permissionBadge3{
+    background-color: #194ce3;
+    padding: 2px 7px 4px 7px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px;
+    color: #ffffff;
+}
+.permissionBadge4{
+    background-color: #de1a58;
+    padding: 2px 7px 4px 7px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px;
+    color: #ffffff;
+}
+.permissionBadge5{
+    background-color: #1ccf3d;
+    padding: 2px 7px 4px 7px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px;
+    color: #ffffff;
+}
+.permissionBadge6{
+    background-color: #a532c7;
+    padding: 2px 7px 4px 7px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px;
+    color: #ffffff;
+}
+.permissionBadge7{
+    background-color: #18cfbd;
+    padding: 2px 7px 4px 7px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 2px;
+    color: #ffffff;
+}
+.table thead th {
+    vertical-align: bottom;
+     border-bottom: 0px !important;
+     background-color:#343a40;
+     color:#ffffff;
+}
+.table tbody tr{
+    border-top:5px solid #ffffff;
+    border-bottom:5px solid #ffffff;
+}
+.table tbody td {
+    vertical-align: middle;
+     border-bottom: 0px !important;
+     background-color:#f5f5f5;
+     border:1px solid #ffffff;
+     color:#000000;
+}
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 0px !important;
+}
+.table thead th:first-child{
+    border-radius:5px 0px 0px 5px;
+}
+.table thead th:last-child{
+    border-radius:0px 5px 5px 0px;
+}
+.table tbody td:first-child {
+    border-radius: 5px 0px 0px 5px;
+}
+.table tbody td:last-child {
+    border-radius: 0px 5px 5px 0px;
+}
+.modal-header{
+    background-color:#343a40;
+    color:#ffffff;
+    padding:5px 15px;
+}
+.modal-header button{
+    color:#ffffff;
+}
+.modal-header button:hover{
+    color:#ffffff;
+}
+.modal-footer{
+    background-color: #e5e5e5;
+    padding: 5px 15px;
+    align-items: center;
+    justify-content: center;
+}
+.displayNone{
+    display:none !important;
+}
+.checkBoxLabel{
+    font-size:18px;
+    padding:0px 5px;
+}
+
