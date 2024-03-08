@@ -1,6 +1,7 @@
 import Dashboard from './components/Dashboard.vue';
 import Appointments from './components/admin/Appointments.vue';
 import Users from './components/admin/Users.vue';
+import Products from './components/admin/Products.vue';
 import Settings from './components/admin/Settings.vue';
 import Profile from './components/admin/profile.vue';
 import UserPermissions from './components/admin/UserPermissions.vue';
@@ -20,6 +21,12 @@ export default[
         path: '/admin/dashboard',
         name: 'admin.dashboard',
         component: Dashboard,
+    },
+
+    {
+        path: '/admin/products',
+        name: 'admin.products',
+        component: Products,
     },
 
     {

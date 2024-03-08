@@ -53,6 +53,26 @@ onMounted(() => {
                 </ul>
             </li> 
 
+            <li class="nav-item" v-if="role.users == 1">
+                <a href="#" class="nav-link" active-class="active">
+                    <i class="nav-icon fas fa-box"></i>
+                    <p>
+                        Product Management
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <router-link to="/admin/products" active-class="active" class="nav-link">
+                            <i class="nav-icon fas fa-box"></i>
+                            <p>
+                                products
+                            </p>
+                        </router-link>
+                    </li>
+                </ul>
+            </li> 
+
             <li class="nav-item" v-if="role.permissions == 1">
                 <a href="#" class="nav-link" active-class="active">
                     <i class="nav-icon fas fa-lock"></i>

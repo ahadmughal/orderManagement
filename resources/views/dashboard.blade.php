@@ -309,8 +309,7 @@ content.
 
 
 
-<strong>Copyright &copy; 2023 <a href="https://cloudtica.com">Cloudtica</a>.</strong> All rights reserved.
-</footer>
+    <strong>Copyright &copy; 2024 <a href="">Fahad Asjad</a>.</strong> All rights reserved.</footer>
 </div>
 
 
