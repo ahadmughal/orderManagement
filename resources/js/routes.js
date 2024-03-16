@@ -2,6 +2,8 @@ import Dashboard from './components/Dashboard.vue';
 import Appointments from './components/admin/Appointments.vue';
 import Users from './components/admin/Users.vue';
 import Products from './components/admin/Products.vue';
+import Orders from './components/admin/Orders.vue';
+import Contact from './components/admin/Contact.vue';
 import Settings from './components/admin/Settings.vue';
 import Profile from './components/admin/profile.vue';
 import UserPermissions from './components/admin/UserPermissions.vue';
@@ -24,15 +26,27 @@ export default[
     },
 
     {
+        path: '/admin/users',
+        name: 'admin.users',
+        component: Users,
+    },
+
+    {
+        path: '/admin/orders',
+        name: 'admin.orders',
+        component: Orders,
+    },
+
+    {
         path: '/admin/products',
         name: 'admin.products',
         component: Products,
     },
 
     {
-        path: '/admin/users',
-        name: 'admin.users',
-        component: Users,
+        path: '/admin/contact',
+        name: 'admin.contact',
+        component: Contact,
     },
 
     {
