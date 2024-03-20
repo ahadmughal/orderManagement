@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\ProfileController;
 use App\Http\Controllers\Admin\RolesController;
 use App\Http\Controllers\ApplicationController;
 use App\Http\Controllers\Admin\UsersController;
+use App\Http\Controllers\Admin\ProductsController;
 use App\Http\Controllers\SideBarController;
 use Illuminate\Support\Facades\Route;
 
@@ -36,6 +37,13 @@ Route::middleware('auth')->group( function () {
     Route::put('/api/users/{user}', [UsersController::class, 'update']);
     Route::delete('/api/users/{user}', [UsersController::class, 'destroy']);
     Route::delete('/api/users', [UsersController::class, 'bulkDelete']);
+
+    // -------------------------  Administrator Product Management Routes  ----------------------------------------------- //
+    Route::get('/api/products', [ProductsController::class, 'index']);
+    Route::post('/api/products', [ProductsController::class, 'store']);
+    Route::put('/api/products/{product}', [ProductsController::class, 'update']);
+    Route::delete('/api/products/{product}', [ProductsController::class, 'destroy']);
+    Route::delete('/api/products', [ProductsController::class, 'bulkDelete']);
 
     // -------------------------  Administrator Blogs Management Routes  ----------------------------------------------- //
     Route::get('/api/appointments', [AppoitmentController::class, 'index']);
